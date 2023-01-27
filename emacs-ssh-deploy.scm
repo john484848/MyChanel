@@ -6,7 +6,6 @@
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (guix build-system emacs))
 (define-public emacs-ssh-deploy
-  (let (commit "9311f9b4f8d25ce54fb7da9bf59d955fed366a4d"))
   (package
    (name "emacs-ssh-deploy")
    (version "3.0")
@@ -14,7 +13,7 @@
 	    (method git-fetch)
 	    (uri (git-reference
 		  (url "https://github.com/cjohansson/emacs-ssh-deploy")
-		  (commit commit)))
+		  (commit "9311f9b4f8d25ce54fb7da9bf59d955fed366a4d")))
 	    (file-name (git-file-name name version))
 	    (sha256
 	     (base32
