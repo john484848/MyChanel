@@ -17,11 +17,11 @@
 	    (file-name (git-file-name name version))
 	    (sha256
 	     (base32
-	      "1wgm4q46nja71grwbdnacnlazj3cgfr6r1glpkyx8y3dn9amdhip"))
+	      "1wgm4q46nja71grwbdnacnlazj3cgfr6r1glpkyx8y3dn9amdhip"))))
 	    (build-system emacs-build-system)
 	    (home-page "https://github.com/cjohansson/emacs-ssh-deploy")
 	    (synopsis
 	     "An emacs package to allow auto deployment with ssh")
 	    (description
 	     "An emacs package to allow auto deployment with ssh")
-   )
+   ))
