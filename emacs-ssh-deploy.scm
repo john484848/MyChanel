@@ -3,6 +3,7 @@
   #:use-module (guix licenses)
   #:use-module (guix download)
   #:use-module (guix git-download)
+  #:use-module ((guix licenses) #:prefix license:)
   #:use-module (guix build-system emacs))
 (define-public emacs-ssh-deploy
   (let (commit "9311f9b4f8d25ce54fb7da9bf59d955fed366a4d"))
@@ -24,4 +25,5 @@
 	     "An emacs package to allow auto deployment with ssh")
 	    (description
 	     "An emacs package to allow auto deployment with ssh")
+            (license license:gpl3)
    ))
