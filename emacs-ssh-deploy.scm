@@ -14,7 +14,7 @@
 	    (uri (git-reference
 		  (url "https://github.com/cjohansson/emacs-ssh-deploy")
 		  (commit "9311f9b4f8d25ce54fb7da9bf59d955fed366a4d")))
-	    (file-name (git-file-name name version))
+	    ;;(file-name (git-file-name name version))
 	    (sha256
 	     (base32
 	      "1wgm4q46nja71grwbdnacnlazj3cgfr6r1glpkyx8y3dn9amdhip"))))
