@@ -12,7 +12,7 @@
    (source (origin
 	    (method git-fetch)
 	    (uri (git-reference
-		  (url "https://github.com/cjohansson/emacs-ssh-deploy")
+		  (url "https://github.com/cjohansson/emacs-ssh-deploy.git")
 		  (commit "9311f9b4f8d25ce54fb7da9bf59d955fed366a4d")))
 	    (sha256
 	     (base32
