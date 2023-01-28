@@ -8,16 +8,16 @@
 (define-public emacs-ssh-deploy
   (package
    (name "emacs-ssh-deploy")
-   ;;(version "3.0")
+   (version "3.0")
    (source (origin
 	    (method git-fetch)
 	    (uri (git-reference
 		  (url "https://github.com/cjohansson/emacs-ssh-deploy")
 		  (commit "9311f9b4f8d25ce54fb7da9bf59d955fed366a4d")))
-	    ;;(file-name (git-file-name name version))
 	    (sha256
 	     (base32
-	      "1wgm4q46nja71grwbdnacnlazj3cgfr6r1glpkyx8y3dn9amdhip"))))
+	      "1wgm4q46nja71grwbdnacnlazj3cgfr6r1glpkyx8y3dn9amdhip"))
+	    (file-name (git-file-name name version))))
 	    (build-system emacs-build-system)
 	    (home-page "https://github.com/cjohansson/emacs-ssh-deploy")
 	    (synopsis
