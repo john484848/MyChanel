@@ -8,7 +8,7 @@
 (define-public emacs-ssh-deploy
   (package
    (name "emacs-ssh-deploy")
-   (version "3.0")
+   ;;(version "3.0")
    (source (origin
 	    (method git-fetch)
 	    (uri (git-reference
