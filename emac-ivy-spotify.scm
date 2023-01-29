@@ -7,7 +7,7 @@
   #:use-module (guix build-system emacs))
 (define-public emacs-ivy-spotify
   (package
-   (name "emacs-ssh-deploy")
+   (name "emacs-ivy-spotify")
    (version "3.0")
    (source (origin
 	    (method git-fetch)
