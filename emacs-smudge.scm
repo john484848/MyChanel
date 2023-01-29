@@ -41,8 +41,7 @@ serve files and directory listings.")
 	      "17sgnl5avnxfw7hdl7k3ssqcj2ygrhfwg2rv0krn7axmjlmr2gjp"))
 	    (file-name (git-file-name name version))))
 	    (build-system emacs-build-system)
-            (propagated-inputs
-             (list emacs-simple-httpd))
+            (arguments (inputs (list emacs-simple-httpd)))
 	    (home-page "https://github.com/danielfm/smudge")
 	    (synopsis
 	     "An emacs package to control spotify")
