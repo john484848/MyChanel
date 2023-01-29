@@ -13,7 +13,7 @@
 	    (method git-fetch)
 	    (uri (git-reference
 		  (url "https://github.com/Lautaro-Garcia/counsel-spotify.git")
-		  (commit "1xrh06w3pszp4gygwsyjz7b5w2ffqmnh6rh891ydbhysp586hk0")))
+		  (commit "2743ad52a9def53534fd505397fbe1ac49e53015")))
 	    (sha256
 	     (base32
 	      "1wgm4q46nja71grwbdnacnlazj3cgfr6r1glpkyx8y3dn9amdhip"))
