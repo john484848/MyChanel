@@ -2,11 +2,31 @@
   #:use-module (guix)
   #:use-module (guix licenses)
   ;;#:use-module (gnu packages)
-  #:use-module (gnu packages emacs-simple-httpd)
+  ;;#:use-module (gnu packages emacs-simple-httpd)
   ;;#:use-module (guix download)
   #:use-module (guix git-download)
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (guix build-system emacs))
+(define-public emacs-simple-httpd
+  (package
+    (name "emacs-simple-httpd")
+    (version "1.5.1")
+    (source
+     (origin
+       (method git-fetch)
+       (uri (git-reference
+             (url "https://github.com/skeeto/emacs-web-server")
+             (commit version)))
+       (file-name (git-file-name name version))
+       (sha256
+        (base32 "0dpn92rg813c4pq7a1vzj3znyxzp2lmvxqz6pzcqi0l2xn5r3wvb"))))
+    (build-system emacs-build-system)
+    (home-page "https://github.com/skeeto/emacs-web-server")
+    (synopsis "HTTP server in pure Emacs Lisp")
+    (description
+     "This package provides a simple HTTP server written in Emacs Lisp to
+serve files and directory listings.")
+    (license license:unlicense)))
 (define-public emacs-smudge
   (package
    (name "emacs-smudge")
