@@ -2,7 +2,7 @@
   #:use-module (guix)
   #:use-module (guix licenses)
   #:use-module (gnu packages)
-  #:use-module (gnu packages emacs-simple-httpd)
+  ;;#:use-module (gnu packages emacs-simple-httpd)
   ;;#:use-module (guix download)
   #:use-module (guix git-download)
   #:use-module ((guix licenses) #:prefix license:)
