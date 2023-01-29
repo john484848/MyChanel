@@ -1,4 +1,4 @@
-(define-module (emacs-ivy-spotify)
+(define-module (emacs-spotify)
   #:use-module (guix)
   #:use-module (guix licenses)
   ;;#:use-module (guix download)
