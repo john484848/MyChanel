@@ -42,7 +42,7 @@ serve files and directory listings.")
 	    (file-name (git-file-name name version))))
 	    (build-system emacs-build-system)
             (propagated-inputs
-             (list emacs-geiser emacs-simple-httpd))
+             (list emacs-simple-httpd))
 	    (home-page "https://github.com/danielfm/smudge")
 	    (synopsis
 	     "An emacs package to control spotify")
